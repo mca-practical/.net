@@ -1,0 +1,27 @@
+Partial Class _Default
+    Inherits System.Web.UI.Page
+
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        If IsValid Then
+            MsgBox("Account created successfully")
+        End If
+
+
+    End Sub
+End Class
+
+
+
+
+
+
+for more information433
+  -->
+<configuration>
+  <appSettings>
+    <add key="validationSettings: Unobsrutive validationMode" value="None"/>
+  </appSettings>
+  <system.web>
+    <compilation debug="true"/>
+  </system.web>
+</configuration>
